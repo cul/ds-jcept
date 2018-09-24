@@ -14,4 +14,6 @@ set :ssh_options, { :forward_agent => true }
 
 set :repo_tree, '_site'
 
+set :branch, 'downtime'
+
 set :keep_releases, 2
