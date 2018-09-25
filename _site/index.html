@@ -5,12 +5,12 @@
   <title>JCEPT - Journal of Clinical Education in Physical Therapy</title>
   <style>
 
-    @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700');
+    @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400|Source+Sans+Pro:400,700');
 
     body {
-      font-family: 'Source Serif Pro', serif;
+      font-family: 'Source Sans Pro', serif;
       font-size: 16px;
-      line-height: 1.5;
+      line-height: 1.6;
       margin: 0;
     }
 
@@ -41,6 +41,16 @@
       left: -9999px;
     }
 
+    h2,
+    h3 {
+      font-size: 24px;
+      line-height: 1.4;
+    }
+
+    h3 {
+      margin: 0 0 5px 0;
+    }
+
     main {
       display: flex;
       padding: 10px 20px;
@@ -54,12 +64,13 @@
     }
 
     article p {
+      font-family: 'Source Serif Pro', serif;
       font-size: 18px;
     }
 
     .masthead-item {
       display: flex;
-      margin: 0 0 10px 0;
+      margin: 0 0 25px 0;
     }
 
     .masthead-pic {
@@ -72,41 +83,49 @@
     }
 
     .masthead-info {
+      line-height: 1.5;
       margin-left: 20px;
       width: 80%;
     }
 
     .masthead-info ul {
-      list-style: none;
-      padding: 5px 0 0 0;
+      padding: 5px 0 0 15px;
       margin: 0;
     }
 
     .masthead-info li {
       font-size: 14px;
-      padding-left: 1em;
-      text-indent: -.5em;
+      list-style: disc;
     }
 
     .masthead-info li::before {
-      content: "- ";
       font-weight: bold;
     }
 
     footer {
-      border-bottom: 3px solid #ddd;
-      border-top: 3px solid #ddd;
+      /* background: #f3f5f3; */
+      border-bottom: 15px solid #ddd;
+      border-top: 1px solid #ddd;
       display: flex;
+    }
+
+    footer h2 {
+      font-size: 20px;
     }
 
     footer .contact,
     footer .sign-up {
-      flex: 1;
-      padding: 0 50px;
+      padding: 25px 50px 25px 50px;
     }
 
     footer .contact {
-      border-right: 3px solid #ddd;
+      border-right: 1px solid #ddd;
+      width: 50%;
+    }
+
+    footer .sign-up {
+      /* background: #ddd; */
+      width: 50%;
     }
 
     a,
@@ -131,13 +150,22 @@
         padding: 10px 30px;
       }
 
+      article,
+      aside {
+        margin: 10px;
+      }
+
+      article {
+        border-bottom: 1px dashed #ddd;
+      }
+
       footer .contact {
         border: 0;
+        border-bottom: 1px dashed #ddd;
       }
 
       footer .contact,
       footer .sign-up {
-        flex: 1;
         padding: 0 10px;
       }
     }
@@ -157,7 +185,7 @@
   <article>
     <h2>Mission, Aim, and Scope</h2>
     <p>The Journal of Clinical Education in Physical Therapy is an open-access peer-reviewed journal. Our purpose is to build the evidence-base related to clinical education and facilitate professional development among the physical therapy clinical and academic faculty of the future. We aim to encourage and disseminate research and innovative methods in clinical education; provide opportunities for professional scholarship in the area of teaching and learning; and stimulate analysis and discussion of clinical and clinical education issues in field of physical therapy.</p>
-    <p>The audience of clinical and academic faculty, clinicians, fellows and residents interested in educating physical therapy professionals to succeed in any clinical setting is encouraged to submit the following submission types: 1) original research, 2) clinic-related teaching methods, 3) narrative and systematic reviews, 4) critically appraised topics, and 5) case reports. In addition, the recurring "interprofessional corner" is reserved for interprofessional collaborations or contributions from other health professions that are applicable to physical therapy clinical education. Finally, invited perspectives on educational topics and current trends will be published periodically.</p>
+    <p>The audience of clinical and academic faculty, clinicians, fellows and residents interested in educating physical therapy professionals to succeed in any clinical setting is encouraged to submit the following submission types: 1) original research, 2) clinic-related teaching methods, 3) narrative and systematic reviews, 4) critically appraised topics, and 5) case reports. In addition, the recurring “interprofessional corner” is reserved for interprofessional collaborations or contributions from other health professions that are applicable to physical therapy clinical education. Finally, invited perspectives on educational topics and current trends will be published periodically.</p>
   </article>
   <aside>
     <h2>Editors-in-Chief</h2>
