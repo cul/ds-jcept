@@ -25,6 +25,11 @@
       list-style: none;
     }
 
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+    }
+
     header {
       background: #002B7F;
     }
@@ -91,12 +96,6 @@
       line-height: 1.5;
     }
 
-    article .contact {
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      padding: 20px 30px 30px 30px;
-    }
-
     .masthead-item {
       font-size: 13px;
       margin: 0 0 25px 0;
@@ -123,9 +122,18 @@
       margin-bottom: 10px;
     }
 
-    footer {
+    .sign-up {
       background: #eee;
-      padding: 60px 20px 70px 20px;
+      padding: 40px 20px 50px 20px;
+      text-align: center;
+    }
+
+    footer {
+      background: #ddd;
+      color: #555;
+      font-size: 14px;
+      line-height: 1.7;
+      padding: 15px 20px;
       text-align: center;
     }
 
@@ -217,20 +225,13 @@
       An open access, peer reviewed publication for physical therapy educators and clinicians, accepting submissions soon.
     </p>
     <h2>Mission, Aim, and Scope</h2>
-    <p>The Journal of Clinical Education in Physical Therapy is an open-access peer-reviewed journal. Our purpose is to build the evidence-base related to clinical education and facilitate professional development among the physical therapy clinical and academic faculty of the future. We aim to encourage and disseminate research and innovative methods in clinical education; provide opportunities for professional scholarship in the area of teaching and learning; and stimulate analysis and discussion of clinical and clinical education issues in field of physical therapy.</p>
-    <p>The audience of clinical and academic faculty, clinicians, fellows and residents interested in educating physical therapy professionals to succeed in any clinical setting is encouraged to submit the following submission types: 1) original research, 2) clinic-related teaching methods, 3) narrative and systematic reviews, 4) critically appraised topics, and 5) case reports. In addition, the recurring “interprofessional corner” is reserved for interprofessional collaborations or contributions from other health professions that are applicable to physical therapy clinical education. Finally, invited perspectives on educational topics and current trends will be published periodically.</p>
-    <div class="contact">
-      <h2>Contact Us</h2>
-      <p>
-        Journal of Clinical Education in Physical Therapy<br>
-        617 West 168th Street- 3rd Floor<br>
-        New York, NY 10032<br>
-        Email: <a href="mailto:jcept@columbia.edu">jcept@columbia.edu</a><br>
-        Twitter: <a href="https://twitter.com/JCEPT-Columbia">JCEPT-Columbia</a><br>
-      </p>
-    </div>
-  </article>
-  <aside>
+    <p>
+      The Journal of Clinical Education in Physical Therapy is an open-access peer-reviewed journal. Our purpose is to build the evidence-base related to clinical education and facilitate professional development among the physical therapy clinical and academic faculty of the future. We aim to encourage and disseminate research and innovative methods in clinical education; provide opportunities for professional scholarship in the area of teaching and learning; and stimulate analysis and discussion of clinical and clinical education issues in field of physical therapy.
+    </p>
+    <p>
+      The audience of clinical and academic faculty, clinicians, fellows and residents interested in educating physical therapy professionals to succeed in any clinical setting is encouraged to submit the following submission types: 1) original research, 2) clinic-related teaching methods, 3) narrative and systematic reviews, 4) critically appraised topics, and 5) case reports. In addition, the recurring “interprofessional corner” is reserved for interprofessional collaborations or contributions from other health professions that are applicable to physical therapy clinical education. Finally, invited perspectives on educational topics and current trends will be published periodically.
+    </p>
+    <hr>
     <h2>Editors-in-Chief</h2>
     <div class="masthead-item">
       <div class="masthead-pic">
@@ -254,8 +255,10 @@
         <li>Associate Director, Columbia University Program in Physical Therapy</li>
       </ul>
     </div>
+  </article>
+  <aside>
     <div class="masthead-names">
-      <h3>Editorial Board</h3>
+      <h2>Editorial Board</h2>
       <ul>
         <li><strong>George Davies, PT, DPT, MEd, ATC, SCS, FAPTA</strong><br>
           Professor, Rehabilitation Sciences<br>
@@ -297,25 +300,39 @@
         </li>
       </ul>
     </div>
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <p>
+        Journal of Clinical Education in Physical Therapy<br>
+        617 West 168th Street- 3rd Floor<br>
+        New York, NY 10032<br>
+        Email: <a href="mailto:jcept@columbia.edu">jcept@columbia.edu</a><br>
+        Twitter: <a href="https://twitter.com/JCEPT-Columbia">JCEPT-Columbia</a><br>
+      </p>
+    </div>
   </aside>
 </main>
-<footer>
-  <div class="sign-up">
-    <!-- Begin Mailchimp Signup Form -->
-    <div id="mc_embed_signup">
-      <form action="https://columbia.us4.list-manage.com/subscribe/post?u=4d4c6343a2aa69c72a25e9e7f&id=79afe96adb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-          <label for="mce-EMAIL">Sign up for the latest publications from JCEPT</label>
-          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true">
-            <input type="text" name="b_4d4c6343a2aa69c72a25e9e7f_79afe96adb" tabindex="-1" value="">
-          </div>
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+
+<div class="sign-up">
+  <!-- Begin Mailchimp Signup Form -->
+  <div id="mc_embed_signup">
+    <form action="https://columbia.us4.list-manage.com/subscribe/post?u=4d4c6343a2aa69c72a25e9e7f&id=79afe96adb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+        <label for="mce-EMAIL">Sign up for the latest publications from JCEPT</label>
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_4d4c6343a2aa69c72a25e9e7f_79afe96adb" tabindex="-1" value="">
         </div>
-      </form>
-    </div>
+          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+      </div>
+    </form>
   </div>
+</div>
+
+<footer>
+  Published in partnership with <a href="https://library.columbia.edu">Columbia University Libraries</a>.<br>
+  All content is subject to a Creative Commons Attribution-NonCommercial-NoDerivatives (CC-BY-NC-ND) License unless otherwise noted.
 </footer>
 
 </body>
