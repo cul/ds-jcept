@@ -1,1 +1,1 @@
-OJS3 - Journal of Clinical Education in Physical Therapy (JCEPT)
+This was previously a placeholder site for JCEPT. Currently not in use. 
